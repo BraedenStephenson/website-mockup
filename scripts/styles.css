@@ -52,7 +52,18 @@
 .image-container{
   padding: 10px;
 }
-
+.purchase-button{
+  background-color: green;
+}
+.card-container{
+  display: flex;
+  justify-content: space-evenly;
+}
+.card{
+  border: solid;
+  padding: 3rem;
+  background-color: burlywood;
+}
 
 
 
