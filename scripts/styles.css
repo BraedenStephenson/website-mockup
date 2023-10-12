@@ -1,0 +1,106 @@
+/* Create a top navigation bar with a black background color  */
+.topnav {
+    background-color:lightgrey;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Create a right-aligned (split) link inside the navigation bar */
+  .topnav a.split {
+    float: right;
+    background-color:blue;
+    color:black;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+/*       Header styling         */
+.header1-styling{
+  background-color: lightgrey;
+  border: 3px solid;
+  color:black;
+}
+#above-header-container{
+ border: 3px solid black;
+  background-color: white;
+  display: flex;
+  align-content: space-evenly;
+}
+.image-container{
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body content*/
+body{
+  background-color: blanchedalmond;
+  margin: 10;
+  padding: 110;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.footer-content{
+  display: flex;
+  background-color:lightgrey;
+  border: 2px;
+}
+
+main{
+  flex: 1;
+}
+
+.list-row{
+  display: flex;
+ justify-content: space-between;
+}
+.list-row a{
+  padding: 30px;
+  ;
+  color: black;
+}
+.paragraph-container{
+  display: flex;
+}
+
+
+.header-container{
+  display: flex;
+  justify-content: space-around;
+}
