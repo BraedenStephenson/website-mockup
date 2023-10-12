@@ -64,6 +64,13 @@
   padding: 3rem;
   background-color: burlywood;
 }
+.bootstrap-card{
+  display: flex;
+}
+.second-card-container{
+  display: flex;
+  justify-content:space-evenly ;
+}
 
 
 
