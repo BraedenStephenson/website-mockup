@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mock Website</title>
+  </head>
+  <body>
+    <header>
+      <div id="above-header-container" style="align-items: center;">
+        <img class="image-container" src="/images/website-logo.png" alt="logo" />
+    </div>
+        <h1 class="header1-styling">THE CLOTHING DEPOT!</h1>
+      </div>
+      <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="registration.html">Registration</a>
+        <a href="login.html">log-in</a>
+        <a href="products.html">Products</a>
+        <a href="checkout.html" class="split"><u>Checkout</u></a>
+      </div>
+    </header>
+    <main>
+      
+
+      <form action="action_page.php" method="post">
+        <div class="imgcontainer">
+        </div>
+      
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+      
+          <button type="submit">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+      
+        <div class="container" style="background-color:#f1f1f1">
+          <button type="button" class="cancelbtn">Cancel</button>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+      </form>
+
+
+        
+    </main>
+    <footer>
+      <div class="footer-content">
+        <p>&copy; The Clothing Depot</p>
+        <div class="footer-container">
+          <div class="list-row">
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="login.html">Log-in</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
