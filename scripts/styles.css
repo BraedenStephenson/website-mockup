@@ -37,7 +37,7 @@
 
 
 
-/*       Header styling         */
+
 .header1-styling{
   background-color: lightgrey;
   border: 3px solid;
@@ -76,15 +76,6 @@
 
 
 
-
-
-
-
-
-
-
-
-/* body content*/
 body{
   background-color: blanchedalmond;
   margin: 10;
@@ -121,4 +112,13 @@ main{
 .header-container{
   display: flex;
   justify-content: space-around;
+}
+.body-table img{
+  display: flex;
+  float: right;
+}
+.header-photos{
+  display: flex;
+  justify-content: space-evenly;
+
 }
